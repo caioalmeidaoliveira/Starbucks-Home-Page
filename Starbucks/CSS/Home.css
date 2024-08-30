@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logomarca{
+    width: 40%;
+    margin-left: -500px;
+    margin-top: -75px;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: #005230;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.About{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.media{
+    position: absolute;
+    left: 450px;
+    right: 100px;
+    top: 200px;
+}
+
+.media img{
+    display: flex;
+    width: 30px;
+    margin: 20 0;
+}
+
+.abouttxt{
+    margin-top: 10px;
+}
+
+.abouttxt h1{
+    font-size: 50px;
+}
+
+.abouttxt p{
+    margin: 20px 0;
+    color: black;
+    font-size: 40px;
+    font-weight: lighter;
+    max-width: 400px;
+}
+
+.abouttxt button{
+    border: 0;
+    background-color: #017143;
+    color: beige;
+    border-radius: 12px;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+}
